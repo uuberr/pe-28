@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirjautuminen</title>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navi">
+        <div class="nav">
+            <ul id="nav-ul">
+                <li id="nav-li">
+                    Main
+                </li>
+                <li id="nav-li">
+                    Projektit
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <div class="laatikko-kirj">
+                <h1 id="t1h">
+                    Tehtävä 1
+                </h1>
+                <p id="t1h">
+                    Tee ohjelma, jolle voi syöttää Scrabble-pelin sanan ja ohjelma laskee kirjain pisteet seuraavasti
+                </p>
+                <ul id="li-ul">
+                <li>A, E, I, N, S, T = 1p</li>
+                <li>O, Ä, K, L = 2p</li>
+                <li>U, M = 3p</li>
+                <li>Y, H, J, P, R, V = 4p</li>
+                <li>Ö, D = 7p</li>
+                <li>B, F, G = 8p</li>
+                <li>C = 10p</li>
+                <li>loput kirjaimet = 12p</li>
+                </ul>
+                <form class="" action="index.html" method="post">
+                    <p id="t1p">Anna sana, jonka pisteet lasketaan: <input type="text" id="inputti" value="" placeholder="Input text"></p>
+                    <button class="btn" type="button" name="button" onclick="t1()">Laske kirjainpisteet</button>
+                    <p id="tulos"></p>
+                </form>
+        </div>
+        <div class="laatikko-lotto">
+            <h1 id="t2h">
+                Tehtävä 2
+            </h1>
+            <p id="t2p">
+                Tee ohjelma, joka arpoo lottonumerot (7 kpl)
+            </p>
+            <button class="btn" type="button" name="button" onclick="t2()">Arvo numerot</button>
+            <p id="tulos2"></p>
+        </div>
+        <div class="laatikko-taulu">
+            <h1 id="t2h">Tehtävä 3</h1>
+            <p id="t2p">Tee ohjelma, joka muuntaa määritetyn (javascriptissä) 2-uloitteisen taulukon taulukkomuotoon</p>
+            <p id="t2p">Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+            <table id="pt" border='1'>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>11</td>
+                <td>9</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>0</td>
+                <td>7</td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>4</td>
+                <td>24</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>10</td>
+                <td>26</td>
+                <td>7</td>
+              </tr>
+            </table>
+            <form class="" action="index.html" method="post">
+              <button class="btn" type="button" name="button" onclick="t3()">Muunna taulukoksi</button>
+              <p id="tulos3"></p>
+            </form>
+        </div>
+        <div class="laatikko-taulu">
+            <h1 id="t2h">Tehtävä 4</h1>
+            <p id="t2p">Tee ohjelma, joka tekee taulukon kaikista korttipakan korteista (2 sisäkkäistä silmukkaa) ja sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä</p>
+            <button class="btn" type="button" name="button" onclick="t4()">Arvo 5 korttia</button>
+            <p id="tulos4"></p>
+        </div>
+</body>
+</html>
