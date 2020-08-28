@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+    background-color: #985277;
+}
+.navi {
+    background-color: #5C374C;
+    width: 100.85%;
+    height: 50px;
+    padding-top: 2px;  
+    margin-top: -8px;
+    margin-left: -8px;
+}
+#nav-li {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    display: inline;
+    padding: 20px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+}
+.laatikko-kirj, .laatikko-taulu, .laatikko-lotto {
+    background-color: #CE6A85;
+    width: 40%;
+    border-radius: 20px;
+}
+#t1h, #t2h {
+    padding: 20px; 
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+#li-ul {
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+#inputti {
+    background-color: #ffffff;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#inputti::placeholder {
+    font-family: 'Asap', sans-serif;
+    color: black;
+    font-size: 11px;
+    text-align-last: left;
+}
+#t1p, #t2p {
+    padding: 20px; 
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#tulos{
+    display: inline;
+    padding-left: 200px; 
+    padding-bottom: 10px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+#tulos2 {
+    position: relative;
+    padding-left: 20px; 
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 20px;
+}
+#pt {
+    border-color: black;
+    margin: 20px;
+}
+#tulos3 table {
+    margin: 20px;
+    border-color: black;
+    
+}
+#tulos4 {
+    color: white;
+    font-size: 20px;
+    padding: 0 0 20px 20px;
+}
